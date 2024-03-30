@@ -1,0 +1,130 @@
+body {
+    background-color:#1B2123;
+}   
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-200%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideFromRight {
+    from{
+        transform: translateX(-200%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.second-div {
+    display: flex;
+    flex-direction:row;
+    /* border: 2px red solid; */
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.first-div {
+    display: flex;
+    height: 50vw;
+    background-color: #30383E;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+.first-div {
+    animation-name: slideFromRight; /* Name of the keyframes animation */
+    animation-duration: 1s; /* Duration of the animation */
+    animation-delay: 0.5s; /* Delay before the animation starts */
+    animation-timing-function: ease-in-out; /* Timing function for the animation */
+    animation-iteration-count: 1; /* Number of times the animation should repeat */
+}
+
+img {
+   height: 4vw;
+   animation: slideIn 1s ease-in-out 0.5 1 direction fill-mode;
+   /* border: 2px yellow solid; */
+}
+
+img {
+    animation-name: slideIn; /* Name of the keyframes animation */
+    animation-duration: 1s; /* Duration of the animation */
+    animation-delay: 0.5s; /* Delay before the animation starts */
+    animation-timing-function: ease-in-out; /* Timing function for the animation */
+    animation-iteration-count: 1; /* Number of times the animation should repeat */
+}
+
+#projects {
+    flex: 1 0 auto;
+    /* border: 2px green solid; */
+    font-size: 1.5vw;
+    color:#F1EFE7; 
+    margin-right: 3vw;
+}
+
+#projects {
+    animation-name: slideIn; /* Name of the keyframes animation */
+    animation-duration: 1s; /* Duration of the animation */
+    animation-delay: 0.5s; /* Delay before the animation starts */
+    animation-timing-function: ease-in-out; /* Timing function for the animation */
+    animation-iteration-count: 1; /* Number of times the animation should repeat */
+}
+
+#skills {
+    flex: 1 0 auto;
+    /* border: 2px green solid; */
+    font-size: 1.5vw;
+    color:#F1EFE7;
+    margin-right: 3vw;
+}
+
+#skills {
+    animation-name: slideIn; /* Name of the keyframes animation */
+    animation-duration: 1s; /* Duration of the animation */
+    animation-delay: 0.5s; /* Delay before the animation starts */
+    animation-timing-function: ease-in-out; /* Timing function for the animation */
+    animation-iteration-count: 1; /* Number of times the animation should repeat */
+}
+
+#experience {
+    flex: 1 0 auto;
+    /* border: 2px green solid; */
+    font-size: 1.5vw;
+    color:#F1EFE7;
+    margin-right: 3vw;
+}
+
+#experience {
+    animation-name: slideIn; /* Name of the keyframes animation */
+    animation-duration: 1s; /* Duration of the animation */
+    animation-delay: 0.5s; /* Delay before the animation starts */
+    animation-timing-function: ease-in-out; /* Timing function for the animation */
+    animation-iteration-count: 1; /* Number of times the animation should repeat */
+}
+
+#contact {
+    flex: 1 0 auto;
+    /* border: 2px green solid; */
+    font-size: 1.5vw;
+    color:#F1EFE7;
+    margin-right: 3vw;
+}
+
+#contact {
+    animation-name: slideIn; /* Name of the keyframes animation */
+    animation-duration: 1s; /* Duration of the animation */
+    animation-delay: 0.5s; /* Delay before the animation starts */
+    animation-timing-function: ease-in-out; /* Timing function for the animation */
+    animation-iteration-count: 1; /* Number of times the animation should repeat */
+}
+
+
+.span-div{
+    display: flex;
+    /* border: 2px purple solid; */
+}
